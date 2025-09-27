@@ -1,0 +1,137 @@
+[
+  {
+    "id": "#1001",
+    "title": "Authentication Failure: Cannot Access Account",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times, but the system still rejects the credentials.",
+    "customer": "John Smith",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "01/15/2025"
+  },
+  {
+    "id": "#1002",
+    "title": "Payment Processing Error: Card Declined",
+    "description": "Customer attempted to pay using Visa ending 1234, but the payment continuously fails despite confirming sufficient balance with their bank.",
+    "customer": "Sarah Johnson",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "02/16/2025"
+  },
+  {
+    "id": "#1003",
+    "title": "UI Bug: Invoice Download Button Non-Functional",
+    "description": "Customer cannot download their January invoice from the billing section. The 'Download' button is visible but non-responsive when clicked.",
+    "customer": "Michael Brown",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "03/17/2025"
+  },
+  {
+    "id": "#1004",
+    "title": "Data Persistence Issue: Billing Address Mismatch",
+    "description": "Customer's billing address shows an incorrect city. They updated the field, but the system incorrectly displays the old data upon refreshing.",
+    "customer": "Emily Davis",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "04/18/2025"
+  },
+  {
+    "id": "#1005",
+    "title": "Billing Inquiry: Refund for Transaction Not Applied",
+    "description": "Customer requested a refund two weeks ago for transaction #RTX-901. The refund has not yet been processed or reflected in their account balance.",
+    "customer": "Sophia Taylor",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "05/20/2025"
+  },
+  {
+    "id": "#1006",
+    "title": "Authentication Bug: Two-Factor Setup Failure",
+    "description": "Customer is unable to complete the 2FA setup process after changing their phone number. The system fails to send or validate the security code.",
+    "customer": "Ethan King",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "06/21/2025"
+  },
+  {
+    "id": "#1007",
+    "title": "Data Integrity: CSV Export File Corrupted",
+    "description": "Customer attempted to export their client list (10k records), but the resulting CSV file is malformed, showing incorrect encoding or missing delimiters.",
+    "customer": "Nova Tech",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "07/17/2025"
+  },
+  {
+    "id": "#1008",
+    "title": "System Error: Subscription Upgrade Failed",
+    "description": "Attempting to switch from the Basic to Premium plan results in an 'Unexpected Error' message. The plan upgrade is not processed on the backend.",
+    "customer": "Omega Group",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "07/22/2025"
+  },
+  {
+    "id": "#1009",
+    "title": "Documentation Request: Guide to API Key Generation",
+    "description": "New developer requires guidance on where to locate and how to properly generate the API key for system integration.",
+    "customer": "Pilot Solutions",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "08/01/2025"
+  },
+  {
+    "id": "#1010",
+    "title": "Connectivity Issue: Intermittent Server Disconnection",
+    "description": "Users are randomly disconnected from the main application server, lasting about 30 seconds, and then automatically reconnecting.",
+    "customer": "Quad Inc.",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "08/10/2025"
+  },
+  {
+    "id": "#1011",
+    "title": "Billing Issue: Incorrect Charge After Cancellation",
+    "description": "Customer canceled their account on the 5th of the month but was still charged the full monthly subscription fee on the 15th.",
+    "customer": "Riley Ventures",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "08/15/2025"
+  },
+  {
+    "id": "#1012",
+    "title": "Broken Feature: Email Notification Link Error (404)",
+    "description": "The 'View Details' link in the automated weekly activity summary email leads to a '404 Page Not Found' error.",
+    "customer": "Summit Corp",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "09/10/2025"
+  },
+  {
+    "id": "#1013",
+    "title": "Permissions Error: Profile Save Button Disabled",
+    "description": "Users with the 'Contributor' role cannot click the 'Save' button after making changes to their personal profile details due to a permissions conflict.",
+    "customer": "Tangent Labs",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "09/15/2025"
+  },
+  {
+    "id": "#1014",
+    "title": "Feature Request: Google Sheets Export Integration",
+    "description": "Submitting a request for direct integration to export report data into a Google Sheets document, rather than only a static CSV file.",
+    "customer": "Unity Systems",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "09/20/2025"
+  },
+  {
+    "id": "#1015",
+    "title": "Administrative Request: Copy of Q3 2023 Invoice",
+    "description": "Customer is missing the invoice for the Q3 2023 payment and requires a digital copy urgently for their internal accounting department.",
+    "customer": "Vector Dynamics",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "09/25/2025"
+  }
+]

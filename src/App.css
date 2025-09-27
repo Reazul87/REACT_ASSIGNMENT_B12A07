@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.title {
+  @apply text-2xl mb-5 font-bold;
+}
+
+.links {
+  @apply space-y-5 text-[#A1A1AA];
+}
+
+.social {
+  @apply h-5 w-5 mr-2.5;
+}
+
+.line {
+  @apply flex items-center;
+}
+
+.footer-box {
+  @apply h-96 text-white gap-4 grid grid-cols-5 container mx-auto py-20;
+}
