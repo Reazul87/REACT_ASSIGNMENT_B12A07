@@ -6,7 +6,7 @@ const StatusBox = ({ resolved, inProgress }) => {
 
   return (
     <Container>
-      <div className="grid grid-cols-2 gap-6 my-5">
+      <div className="grid md:grid-cols-2 gap-6 my-5">
         <div className="h-52 grid grid-cols-5 overflow-hidden rounded-lg bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">
           <div
             style={{ backgroundImage: `url(${Img1})` }}

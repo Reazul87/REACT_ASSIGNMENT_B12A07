@@ -5,7 +5,7 @@
 }
 
 .links {
-  @apply space-y-5 text-[#A1A1AA];
+  @apply space-y-5 text-[#A1A1AA]
 }
 
 .social {
@@ -17,5 +17,5 @@
 }
 
 .footer-box {
-  @apply h-96 text-white gap-4 grid grid-cols-5 container mx-auto py-20;
+  @apply md:h-96 text-center md:text-left px-5 text-white gap-4 grid md:grid-cols-5 grid-cols-1 py-20;
 }

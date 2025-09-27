@@ -57,53 +57,55 @@ const Footer = () => {
             </ol>
           </div>
           <div>
-            <h1 className="title">Social Links</h1>
-            <ol className="links">
-              <li>
-                <a className="line" href="https://x.com/?lang=en">
-                  <img
-                    className="social"
-                    src="/fi_5969020.png"
-                    alt="fi_5969020.png"
-                  />
-                  @CS — Ticket System
-                </a>
-              </li>
-              <li>
-                <a className="line" href="https://www.linkedin.com/">
-                  <img
-                    className="social"
-                    src="/fi_145807.png"
-                    alt="fi_145807.png"
-                  />
-                  @CS — Ticket System
-                </a>
-              </li>
-              <li>
-                <a className="line" href="https://www.facebook.com/">
-                  <img
-                    className="social"
-                    src="/fi_5968764.png"
-                    alt="fi_5968764.png"
-                  />
-                  @CS — Ticket System
-                </a>
-              </li>
-              <li>
-                <a
-                  className="line"
-                  href="https://mail.google.com/support-zine@gmail.com"
-                  target="_blank"
-                >
-                  <img
-                    className="social"
-                    src="/Vector (3).png"
-                    alt="Vector (3).png"
-                  />
-                  support@cst.com
-                </a>
-              </li>
-            </ol>
+            <div>
+              <h1 className="title">Social Links</h1>
+              <ol className="links flex flex-col md:items-start items-center">
+                <li>
+                  <a className="line" href="https://x.com/?lang=en">
+                    <img
+                      className="social"
+                      src="/fi_5969020.png"
+                      alt="fi_5969020.png"
+                    />
+                    @CS — Ticket System
+                  </a>
+                </li>
+                <li>
+                  <a className="line" href="https://www.linkedin.com/">
+                    <img
+                      className="social"
+                      src="/fi_145807.png"
+                      alt="fi_145807.png"
+                    />
+                    @CS — Ticket System
+                  </a>
+                </li>
+                <li>
+                  <a className="line" href="https://www.facebook.com/">
+                    <img
+                      className="social"
+                      src="/fi_5968764.png"
+                      alt="fi_5968764.png"
+                    />
+                    @CS — Ticket System
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="line"
+                    href="https://mail.google.com/support-zine@gmail.com"
+                    target="_blank"
+                  >
+                    <img
+                      className="social"
+                      src="/Vector (3).png"
+                      alt="Vector (3).png"
+                    />
+                    support@cst.com
+                  </a>
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
         <div className="pb-7 text-white text-center">
