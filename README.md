@@ -1,40 +1,78 @@
+# CS — Ticket System
+
+A modern, responsive **customer support ticket management dashboard** built with React.  
+Users can view incoming customer tickets, start working on them (move to In-Progress), mark them as resolved, and track real-time task status with beautiful visual cards and toast notifications.
+
+## Live Demo
+🔗 https://hero-io-10.netlify.app/  
+*(replace with your **actual** deployed URL — Vercel, Netlify, GitHub Pages, etc.)*
+
+## Project Screenshot
+![Dashboard Overview](hero-io-screenshot.png)  
+*(Desktop view of tickets list, status boxes and task sections — upload real image to repo)*
+
+## Technologies Used
+- React (v19) — Component-based UI & state management
+- Vite — Lightning-fast build tool & dev server
+- Tailwind CSS + DaisyUI — Utility-first styling & beautiful components
+- React Toastify — User-friendly toast notifications
+- JSON Fetch — Async data loading with Suspense + fallback loading spinner
+- Modern JavaScript (ES6+), Hooks (`useState`, Suspense, etc.)
+
+## Core Features
+- View list of open customer support tickets with full details (title, description, priority, status, customer, created date)
+- Click a ticket to move it to **In-Progress** status
+- Mark in-progress tasks as **Complete** → moves to Resolved section
+- Real-time visual counters: In-Progress & Resolved ticket counts with gradient cards
+- Color-coded priority & status badges (High / Medium / Low, Open / In-Progress / Resolved)
+- Loading state with animated spinner using React Suspense
+- Fully responsive design (mobile, tablet, desktop)
+- Clean navbar + professional footer with social links
+- Toast notifications for every status change
+- Sample ticket data loaded from `Customer_Ticket.json`
+
+## Dependencies
+Main runtime dependencies (see `package.json` for full list):
+- react & react-dom
+- tailwindcss + daisyui
+- react-toastify
+- vite (build & dev tool)
+
+Pure frontend project — no backend required.
+
+## ⚡ How to Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/RazulBR/REACT_ASSIGNMENT_B12A07.git
+   cd REACT_ASSIGNMENT_B12A07
+```
 ---
+### 2. Install dependencies
+
+```bash
+npm install
+```
 ---
 
-### *Assignment Related Important Links :*
-----
+### 3. Start the project
 
-> ### [Private Repository](https://github.com/programming-hero-web-course-4/b12a7-customer-support-zone-Reazul87) 
-
-> ### [Netlify Live](https://customer-support-zone-one.netlify.app/)
-
-> ### [Cloudflare Live](https://customer-support-zone-one.pages.dev/)
-
-> ### [Surge Live](http://customer-support-zone-one.surge.sh/)
- 
+```bash
+npm run dev
+```
 ---
-### *Answer the following questions clearly:*
 
+### 4. Open in browser
 
-* ### What is JSX and why is it used ?
-
-> **JSX Syntax same as html so therefore we can read write easily. By using jsx we can easily complete user interface of website. In JSX very easy to write dynamic content . Inside {} this we write JS . JSX converted by Babel compiler** 
-
-* ### What is the difference between State and Props?
-
-> **State manages data inside component , it use to handle dynamic data, it changes states itself. Props used to pass data from parent to child , Props can not change, data pass from outer component to inner component** 
-
-* ### What is the useState hook, and how does it work?
-
-> **useState is a react hook . It used to manage state, it returns state variable and state updating function .It makes coding very easier.**  
-
-* ### How can you share state between components in React?
-
-> **We can share state between components in React called lifting state up . State from common parent component to child component** 
-
-* ### How is event handling done in React?
-
->**Event name will be camelCase onClick .Commonly handler function define on component.With parameter only reference of handler. If parameter then function must be inside call back function.** 
-
+```bash
+Go to http://localhost:5173 (or the port shown in your terminal)
+```
 ---
+
+## 🧑‍💻 Author
+
+**MD REAZUL HASAN**
+
+[GitHub Profile](https://github.com/Reazul87)
+
 ---
