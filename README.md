@@ -6,8 +6,8 @@ Users can view incoming customer tickets, start working on them (move to In-Prog
 ![Dashboard Overview](support-ticket-screenshort.png)  
 
 ## 🚀 Live Demo
-- **[Netlify](https://green-nest-org.netlify.app/)**
-- **[CloudFlare](https://green-nest-org.pages.dev/)**
+- **[Netlify](https://customer-support-zone-one.netlify.app/)**
+- **[CloudFlare](https://customer-support-zone-one.pages.dev/)**
 
 ## Technologies Used
 - React (v19) — Component-based UI & state management
