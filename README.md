@@ -8,7 +8,7 @@ Users can view incoming customer tickets, start working on them (move to In-Prog
 *(replace with your **actual** deployed URL — Vercel, Netlify, GitHub Pages, etc.)*
 
 ## Project Screenshot
-![Dashboard Overview](hero-io-screenshot.png)  
+![Dashboard Overview](support-ticket-screenshort.png)  
 *(Desktop view of tickets list, status boxes and task sections — upload real image to repo)*
 
 ## Technologies Used
