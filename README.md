@@ -3,13 +3,11 @@
 A modern, responsive **customer support ticket management dashboard** built with React.  
 Users can view incoming customer tickets, start working on them (move to In-Progress), mark them as resolved, and track real-time task status with beautiful visual cards and toast notifications.
 
-## Live Demo
-🔗 https://hero-io-10.netlify.app/  
-*(replace with your **actual** deployed URL — Vercel, Netlify, GitHub Pages, etc.)*
-
-## Project Screenshot
 ![Dashboard Overview](support-ticket-screenshort.png)  
-*(Desktop view of tickets list, status boxes and task sections — upload real image to repo)*
+
+## 🚀 Live Demo
+- **[Netlify](https://green-nest-org.netlify.app/)**
+- **[CloudFlare](https://green-nest-org.pages.dev/)**
 
 ## Technologies Used
 - React (v19) — Component-based UI & state management
